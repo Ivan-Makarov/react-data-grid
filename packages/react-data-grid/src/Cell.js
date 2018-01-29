@@ -28,7 +28,7 @@ class Cell extends React.Component {
     height: PropTypes.number,
     tabIndex: PropTypes.number,
     column: PropTypes.shape(ExcelColumn).isRequired,
-    value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.object, PropTypes.bool]),
+    //value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.object, PropTypes.bool]),
     isExpanded: PropTypes.bool,
     isRowSelected: PropTypes.bool,
     cellMetaData: PropTypes.shape(CellMetaDataShape).isRequired,
@@ -41,10 +41,10 @@ class Cell extends React.Component {
     isScrolling: PropTypes.bool.isRequired,
     tooltip: PropTypes.string,
     isCellValueChanging: PropTypes.func,
-    children: PropTypes.oneOfType([
-      PropTypes.arrayOf(PropTypes.node),
-      PropTypes.node
-    ])
+    //children: PropTypes.oneOfType([
+      //PropTypes.arrayOf(PropTypes.node),
+      //PropTypes.node
+    //])
   };
 
   static defaultProps = {

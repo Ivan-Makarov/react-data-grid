@@ -11,7 +11,7 @@ class Draggable extends React.Component {
     onDragStart: PropTypes.func,
     onDragEnd: PropTypes.func,
     onDrag: PropTypes.func,
-    component: PropTypes.oneOfType([PropTypes.func, PropTypes.constructor]),
+    //component: PropTypes.oneOfType([PropTypes.func, PropTypes.constructor]),
     style: PropTypes.object
   };
 

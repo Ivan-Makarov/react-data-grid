@@ -5,16 +5,16 @@ import PropTypes from 'prop-types';
 
 class DropDownFormatter extends React.Component {
   static propTypes = {
-    options: PropTypes.arrayOf(
-      PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.shape({
-          id: PropTypes.string,
-          title: PropTypes.string,
-          value: PropTypes.string,
-          text: PropTypes.string
-        })
-      ])).isRequired,
+    //options: PropTypes.arrayOf(
+      //PropTypes.oneOfType([
+        //PropTypes.string,
+        //PropTypes.shape({
+          //id: PropTypes.string,
+          //title: PropTypes.string,
+          //value: PropTypes.string,
+          //text: PropTypes.string
+        //})
+      //])).isRequired,
     value: PropTypes.string.isRequired
   };
 

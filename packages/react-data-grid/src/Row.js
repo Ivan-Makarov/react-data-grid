@@ -23,7 +23,7 @@ class Row extends React.Component {
 
   static propTypes = {
     height: PropTypes.number.isRequired,
-    columns: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
+    //columns: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
     row: PropTypes.any.isRequired,
     cellRenderer: PropTypes.func,
     cellMetaData: PropTypes.shape(cellMetaDataShape),

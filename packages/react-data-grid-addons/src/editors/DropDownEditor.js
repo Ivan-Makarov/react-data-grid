@@ -37,16 +37,16 @@ class DropDownEditor extends EditorBase {
   }
 }
 
-DropDownEditor.propTypes = {
-  options: PropTypes.arrayOf(PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.shape({
-      id: PropTypes.string,
-      title: PropTypes.string,
-      value: PropTypes.string,
-      text: PropTypes.string
-    })
-  ])).isRequired
-};
+//DropDownEditor.propTypes = {
+  //options: PropTypes.arrayOf(PropTypes.oneOfType([
+    //PropTypes.string,
+    //PropTypes.shape({
+      //id: PropTypes.string,
+      //title: PropTypes.string,
+      //value: PropTypes.string,
+      //text: PropTypes.string
+    //})
+  //])).isRequired
+//};
 
 module.exports = DropDownEditor;

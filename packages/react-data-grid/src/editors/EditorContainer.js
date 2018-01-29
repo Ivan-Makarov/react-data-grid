@@ -13,7 +13,7 @@ class EditorContainer extends React.Component {
   static propTypes = {
     rowIdx: PropTypes.number,
     rowData: PropTypes.object.isRequired,
-    value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.object, PropTypes.bool]).isRequired,
+    //value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.object, PropTypes.bool]).isRequired,
     cellMetaData: PropTypes.shape({
       selected: PropTypes.object.isRequired,
       copied: PropTypes.object,

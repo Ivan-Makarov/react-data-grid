@@ -14,7 +14,7 @@ import PropTypes from 'prop-types';
 
 const HeaderRowStyle  = {
   overflow: PropTypes.string,
-  width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  //width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   height: PropTypes.number,
   position: PropTypes.string
 };
@@ -26,7 +26,7 @@ class HeaderRow extends React.Component {
   static displayName = 'HeaderRow';
 
   static propTypes = {
-    width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    //width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     height: PropTypes.number.isRequired,
     columns: PropTypes.oneOfType([PropTypes.array, PropTypes.object]).isRequired,
     onColumnResize: PropTypes.func,

@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 
 class DateRangeFormatter extends React.Component {
   static propTypes = {
-    value: PropTypes.shape({
-      startDate: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-      endDate: PropTypes.oneOfType([PropTypes.string, PropTypes.object])
-    }).isRequired,
+    //value: PropTypes.shape({
+      //startDate: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+      //endDate: PropTypes.oneOfType([PropTypes.string, PropTypes.object])
+    //}).isRequired,
     inputFormat: PropTypes.string,
     displayFormat: PropTypes.string
   };

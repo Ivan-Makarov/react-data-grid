@@ -15,11 +15,11 @@ class Canvas extends React.Component {
   static displayName = 'Canvas';
 
   static propTypes = {
-    rowRenderer: PropTypes.oneOfType([PropTypes.func, PropTypes.element]),
+    //rowRenderer: PropTypes.oneOfType([PropTypes.func, PropTypes.element]),
     rowHeight: PropTypes.number.isRequired,
     height: PropTypes.number.isRequired,
     width: PropTypes.number,
-    totalWidth: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    //totalWidth: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     style: PropTypes.string,
     className: PropTypes.string,
     displayStart: PropTypes.number.isRequired,

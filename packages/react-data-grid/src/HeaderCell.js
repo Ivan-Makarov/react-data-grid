@@ -14,7 +14,7 @@ function simpleCellRenderer(objArgs: {column: {name: string}}): ReactElement {
 
 class HeaderCell extends React.Component {
   static propTypes = {
-    renderer: PropTypes.oneOfType([PropTypes.func, PropTypes.element]).isRequired,
+    //renderer: PropTypes.oneOfType([PropTypes.func, PropTypes.element]).isRequired,
     column: PropTypes.shape(ExcelColumn).isRequired,
     onResize: PropTypes.func.isRequired,
     height: PropTypes.number.isRequired,

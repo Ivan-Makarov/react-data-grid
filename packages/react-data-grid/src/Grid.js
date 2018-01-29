@@ -10,8 +10,8 @@ class Grid extends React.Component {
   static displayName = 'Grid';
 
   static propTypes = {
-    rowGetter: PropTypes.oneOfType([PropTypes.array, PropTypes.func]).isRequired,
-    columns: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
+    //rowGetter: PropTypes.oneOfType([PropTypes.array, PropTypes.func]).isRequired,
+    //columns: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
     tabIndex: PropTypes.number,
     columnMetrics: PropTypes.object,
     minHeight: PropTypes.number,
